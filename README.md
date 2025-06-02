@@ -1,3 +1,4 @@
+[sekaimiru-alt-banner.png]
 # Sekaimiru
 A multipurpose Discord bot for the rhythm mobile game HATSUNE MIKU: COLORFUL STAGE!
 
