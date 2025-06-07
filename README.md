@@ -1,7 +1,13 @@
-![sekaimiru logo](sekaimiru-logo-v2.png)
-<p align="center">
-A multipurpose Discord bot for the rhythm mobile game HATSUNE MIKU: COLORFUL STAGE!
-</p>
+<div align="center">
+  <img src="./assets/wordmark.png">
+  <br><br>
+  
+  <img src="https://www.google.com/s2/favicons?domain=projectsekai.fandom.com"> <strong>A multipurpose bot for HATSUNE MIKU: COLORFUL STAGE</strong> <img src="https://www.google.com/s2/favicons?domain=projectsekai.fandom.com">
+  <br>
+  <em>Github Pages repository</em>
+</div>
 
-# Notes
-No assets hosted on this bot (asides from banners) are owned by the developer and are owned by their respective owners, including, but not limited to, SEGA, Colorful Palette and Crypton Future Media.
+### ❓ What's this?
+This repository holds the source code for Sekaimiru's website. It does not hold Sekaimiru's source code itself.
+<br>
+*Try the bot!*
