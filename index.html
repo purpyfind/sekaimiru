@@ -13,12 +13,12 @@
     body {
       font-family: "Rubik", sans-serif;
       background: linear-gradient(to bottom right, #1a202c, #4a5b7d);
-      min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      overflow: hidden;
+      justify-content: flex-start;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
 
       animation: gradient 15s ease-in-out infinite alternate;
       background-size: 400% 400%
@@ -53,18 +53,20 @@
 <body>
   <img src="./assets/wordmark.png" alt="Wordmark" class="max-w-xs md:max-w-sm lg:max-w-md h-auto mb-8 mx-auto wordmark-bounce">
   <div class="bg-gray-800 p-8 rounded-lg shadow-xl max-w-lg mx-auto text-white">
-    <img src="./assets/stamp0050.png" alt="Ichika Hoshino saying 'What the?!'">
+    <img src="./assets/stamp0050.png" alt="Ichika Hoshino saying 'What the?!'" class="block mx-auto max-w-[150px] h-auto mb-4">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">It's me!</h2>
     <p class="text-lg md:text-xl leading-relaxed text-center">
       A multipurpose Discord bot for the mobile rhythm game HATSUNE MIKU: COLORFUL STAGE!
       <br><br>
-      Essentially, Sekaimiru is a database bot for the game, able to retrieve all kinds of information you need and also featuring fun comands like games and profile customization!
-      <br><br>
-      <sub>Sekaimiru is an independent, fan-made project and is not affiliated with, endorsed by or officially connected to Crypton Future Media, Inc., SEGA CORPORATION and Colorful Palette Inc.</sub>
-      <br>
-      <sub>Files or images hosted on this website and the bot are owned by their respective owners, including, but not limited to, SEGA, Crypton Future Media and Colorful Palette.</sub>
-      <br>
-      <sub>The names Hatsune Miku, HATSUNE MIKU: COLORFUL STAGE! and Discord are trademarks of Crypton Future Media, Inc., SEGA CORPORATION/Colorful Palette Inc./Crypton Future Media, Inc. and Discord, Inc. respectively.</sub>
+      Essentially, Sekaimiru is a <span class="font-semibold text-purple-400">database bot</span> for the game, able to retrieve all kinds of information you need and also featuring <span class="font-semibold text-purple-400">fun commands</span> like games and <span class="font-semibold text-purple-400">profile customization</span>!
     </p>
+    <sub class="block text-xs text-gray-400 mt-6 text-center">
+      Sekaimiru is an independent, fan-made project and is not affiliated with, endorsed by or officially connected to Crypton Future Media, Inc., SEGA CORPORATION and Colorful Palette Inc.
+      <br>
+      Files or images hosted on this website and the bot are owned by their respective owners, including, but not limited to, SEGA, Crypton Future Media and Colorful Palette.
+      <br>
+      The names Hatsune Miku, HATSUNE MIKU: COLORFUL STAGE! and Discord are trademarks of Crypton Future Media, Inc., SEGA CORPORATION/Colorful Palette Inc./Crypton Future Media, Inc. and Discord, Inc. respectively.
+    </sub>
   </div>
 </body>
 </html>
