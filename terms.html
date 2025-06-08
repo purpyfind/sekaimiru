@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sekaimiru - Terms of Service</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Rubik", sans-serif;
+      background: linear-gradient(to bottom right, #1a202c, #4a5b7d);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      min-height: 100vh;
+      box-sizing: border-box;
+
+      animation: gradient 15s ease-in-out infinite alternate;
+      background-size: 400% 400%;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .btn-secondary {
+      transition: all 0.3s ease-in-out;
+      background-color: #4a5b7d;
+      color: #e2e8f0;
+    }
+    .btn-secondary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      background-color: #5a6b8c;
+      color: #fff;
+    }
+    ul li {
+        padding-left: 0.5em;
+        margin-bottom: 0.5em;
+        text-indent: -0.5em;
+    }
+    ul li::before {
+        content: "\2022";
+        color: #a78bfa;
+        font-weight: bold;
+        display: inline-block;
+        width: 0.5em;
+        margin-right: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text-white text-4xl md:text-5xl font-extrabold text-center mb-8 mt-4 md:mt-8 px-4">Terms of Service</h1>
+
+  <div class="bg-gray-800 p-8 rounded-lg shadow-xl max-w-2xl mx-auto text-white">
+    <p class="text-lg md:text-xl leading-relaxed mb-6">
+      <strong>Last Updated:</strong> June 9, 2025
+      <br><br>
+      Hi there! These Terms explain the rules for using the Sekaimiru Discord bot ("the Bot"). By using the Bot, you agree to these rules. If you don't agree, please don't use the Bot.
+    </p>
+
+    <h2 class="text-xl md:text-2xl font-semibold text-purple-400 mb-3">Terms:</h2>
+    <ul class="list-none mb-6">
+      <li>Sekaimiru is a <strong>fan-made project</strong> and is <strong>NOT officially affiliated with</strong> Crypton Future Media, Inc., SEGA CORPORATION, or Colorful Palette Inc.</li>
+      <li>All game assets (characters, names, visuals) from HATSUNE MIKU: COLORFUL STAGE! belong to their respective owners. Sekaimiru <strong>does NOT claim ownership</strong> of these.</li>
+      <li>Your bot data (like profile customizations or command history) <strong>does NOT connect to</strong> your official game data in any way.</li>
+      <li>Bot updates might change your saved data (like profile settings). We'll try to announce significant changes in our support server.</li>
+      <li>When using Sekaimiru, you must <strong>always follow Discord's own Terms of Service and Community Guidelines.</strong></li>
+      <li>If we receive a valid copyright claim for any content, the Bot will be <strong>immediately shut down.</strong></li>
+    </ul>
+
+    <h2 class="text-xl md:text-2xl font-semibold text-purple-400 mb-3">Contact:</h2>
+    <p class="text-base leading-relaxed mb-6">
+      If you have questions about these Terms, contact us:
+      <br>
+      <strong>Discord Server:</strong> [https://discord.gg/y7wZrQfFDc]
+      <br>
+      <strong>Email:</strong> [pawnpurpy@gmail.com]
+    </p>
+
+    <div class="mt-8 text-center">
+      <a href="index.html" class="btn-secondary px-6 py-2 rounded-full shadow-md hover:bg-gray-700 transition-colors duration-300">
+        ← Go back to landing page
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
