@@ -49,11 +49,17 @@
       animation: bouncey 3s ease-in-out infinite;
     }
 
+    .btn-primary {
+      transition: all 0.3s ease-in-out;
+    }
     .btn-primary:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4); /* Purple shadow */
+      box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
     }
 
+    .btn-secondary {
+      transition: all 0.3s ease-in-out;
+    }
     .btn-secondary:hover {
       transform: translateY(-2px);
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -77,21 +83,21 @@
     <div class="mt-8 flex flex-col items-center gap-4">
       <!-- hi -->
       <div class="flex flex-col md:flex-row gap-4 w-full justify-center">
-        <a href="#invite-bot" class="btn-primary bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform flex-grow md:flex-grow-0 text-center">
-          Invite the bot
+        <a href="https://discord.com/oauth2/authorize?client_id=1363850509735166167" class="btn-primary bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform flex-grow md:flex-grow-0 text-center">
+            Invite the bot
         </a>
         <a href="#join-server" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform flex-grow md:flex-grow-0 text-center flex items-center justify-center">
-          <img src="./assets/discord_icon.png" alt="Discord Icon" class="w-5 h-5 mr-2">
-          Join support server
+            <img src="./assets/discord.png" class="w-5 h-5 mr-2">
+            Join support server
         </a>
       </div>
 
       <!-- legal stuff -->
       <div class="flex flex-col md:flex-row gap-2 mt-4 w-full justify-center">
-        <a href="#privacy-policy" class="btn-secondary text-gray-300 hover:text-white px-4 py-2 rounded-md text-sm text-center">
+        <a href="privacy.html" class="btn-secondary text-gray-300 hover:text-white px-4 py-2 rounded-md text-sm text-center">
           Privacy Policy
         </a>
-        <a href="#terms-of-service" class="btn-secondary text-gray-300 hover:text-white px-4 py-2 rounded-md text-sm text-center">
+        <a href="terms.html" class="btn-secondary text-gray-300 hover:text-white px-4 py-2 rounded-md text-sm text-center">
           Terms of Service
         </a>
       </div>
