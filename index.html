@@ -12,7 +12,7 @@
   <style>
     body {
       font-family: "Rubik", sans-serif;
-      background: linear-gradient(to bottom right, #1a202c, #2d3748);
+      background: linear-gradient(to bottom right, #1a202c, #4a5b7d);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -20,20 +20,48 @@
       justify-content: center;
       overflow: hidden;
 
-      animation: gradient-pan 30s ease-in-out infinite alternate;
+      animation: gradient 15s ease-in-out infinite alternate;
       background-size: 400% 400%
+    }
+
+    @keyframes bouncey {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-6px); 
+      }
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .wordmark-bounce {
+      animation: bouncey 2s ease-in-out infinite;
     }
   </style>
 </head>
 <body>
-  <img src="./assets/wordmark.png" class="max-w-xs md:max-w-sm lg:max-w-md h-auto mb-8 mx-auto">
+  <img src="./assets/wordmark.png" class="max-w-xs md:max-w-sm lg:max-w-md h-auto mb-8 mx-auto animate-logo-bounce">
   <div class="bg-gray-800 p-8 rounded-lg shadow-xl max-w-lg mx-auto text-white">
+    <img src="https://storage.sekai.best/sekai-en-assets/stamp/stamp0050/stamp0050.png">
     <p class="text-lg md:text-xl leading-relaxed text-center">
       A multipurpose Discord bot for the mobile rhythm game HATSUNE MIKU: COLORFUL STAGE!
       <br><br>
       Essentially, Sekaimiru is a database bot for the game, able to retrieve all kinds of information you need and also featuring fun comands like games and profile customization!
       <br><br>
       <sub>Sekaimiru is an independent, fan-made project and is not affiliated with, endorsed by or officially connected to Crypton Future Media, Inc., SEGA CORPORATION and Colorful Palette Inc.</sub>
+      <br>
+      <sub>Files or images hosted on this website and the bot are owned by their respective owners, including, but not limited to, SEGA, Crypton Future Media and Colorful Palette.</sub>
       <br>
       <sub>The names Hatsune Miku, HATSUNE MIKU: COLORFUL STAGE! and Discord are trademarks of Crypton Future Media, Inc., SEGA CORPORATION/Colorful Palette Inc./Crypton Future Media, Inc. and Discord, Inc. respectively.</sub>
     </p>
