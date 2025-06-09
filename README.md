@@ -35,6 +35,8 @@ You can also hide your profile from the public. This means no one will be able t
 ## ❤️ Feedback
 Please leave feedback for the bot by either making an issue on this repo or using the /feedback command on the bot. Your feedback matters and will help me make the bot as perfect as it could be!
 <br>
+Starring this repository is also feedback!
+<br>
 Donations will eventually be an option... maybe?
 <br><br>
 <img src="https://storage.sekai.best/sekai-en-assets/stamp/stamp0407/stamp0407.png" width=148 height=128> <img src="https://storage.sekai.best/sekai-en-assets/stamp/stamp0402/stamp0402.png" width=148 height=128>
