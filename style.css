@@ -85,6 +85,10 @@ body::before {
   color: #fff;
 }
 
+.discord {
+  object-fit: contain
+}
+
 ul li {
   padding-left: 0.5em;
   margin-bottom: 0.5em;
