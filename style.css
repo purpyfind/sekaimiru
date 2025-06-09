@@ -61,6 +61,21 @@ body::before {
   }
 }
 
+a {
+  color: #63b3ed;
+  text-decoration: none; 
+  transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #90cdf4;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #4299e1;
+}
+
 .wordmark-bounce {
   animation: bouncey 2.5s ease-in-out infinite;
 }
