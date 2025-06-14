@@ -1,0 +1,3 @@
+Project SEKAI: COLORFUL STAGE! feat. Hatsune Miku is a mobile rhythm game developed by Colorful Palette and published by SEGA with Crypton Future Media. It is a spin-off of the Hatsune Miku: Project DIVA game series. It's name is the aforementioned in Japan and "HATSUNE MIKU: COLORFUL STAGE!" globally. The game centers around the Crypton Future Media original virtual singers and virtual worlds within the real world, known as "SEKAI", formed when the true feelings of multiple characters are discovered.
+
+For more information, read on Wikipedia: https://en.wikipedia.org/wiki/Hatsune_Miku:_Colorful_Stage!

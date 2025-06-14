@@ -1,0 +1,74 @@
+[
+    {
+        "id": "project_sekai",
+        "display_name": "Project SEKAI: COLORFUL STAGE! feat. Hatsune Miku",
+        "synonyms": ["puroseka", "proseka", "prsk", "pjsk", "pjsekai", "colorful stage", "hatsune miku colorful stage"],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "fc",
+        "display_name": "Full Combo",
+        "synonyms": ["fc", "full combo", "all perfect", "ap"],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "sticker",
+        "display_name": "Sticker",
+        "synonyms": ["stamp", "stamps"],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "flick",
+        "display_name": "Flick notes",
+        "synonyms": [],
+        "contributor": "2000castles"
+    },
+    {
+        "id": "tap",
+        "display_name": "Tap notes",
+        "synonyms": [],
+        "contributor": "2000castles"
+    },
+    {
+        "id": "ladder",
+        "display_name": "Ladder notes",
+        "synonyms": [],
+        "contributor": "2000castles"
+    },
+    {
+        "id": "jacks",
+        "display_name": "Jack notes",
+        "synonyms": [],
+        "contributor": "2000castles"
+    },
+    {
+        "id": "another_vocal",
+        "display_name": "Another Vocal",
+        "synonyms": ["alt", "cover", "alt vocal", "version"],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "developer",
+        "display_name": "Colorful Palette",
+        "synonyms": ["colopale", "colopal", "karafuru paretto"],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "cfm",
+        "display_name": "Crypton Future Media, Inc.",
+        "synonyms": ["crypton"],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "card",
+        "display_name": "Character cards",
+        "synonyms": [],
+        "contributor": "purpyfind"
+    },
+    {
+        "id": "mv",
+        "display_name": "Music Video",
+        "synonyms": ["2dmv", "3dmv", "lite", "original mv"],
+        "contributor": "purpyfind"
+    }
+]

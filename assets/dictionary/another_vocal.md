@@ -1,0 +1,1 @@
+An "Another Vocal" is a version of a song featuring different vocals than the SEKAI version. "Another Vocal" versions are usually solo covers by a character from the game, but can also be up to 2 characters, for example: "YY" by 23.exe, the SEKAI version of which is sung by Vivid BAD SQUAD, has 1 "Another Vocal" version, individually sung by An Shiraishi.

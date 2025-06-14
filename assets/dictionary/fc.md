@@ -1,0 +1,1 @@
+A "full combo" is one of the possible results of clearing a show in the game achieved when the player has managed to tap every note and maintain their combo. An "all perfect" is achieved the same way, except if all notes are PERFECT.
