@@ -11,7 +11,9 @@
 </div>
 
 ## ⚠️ Note
-This repository doesn't hold Sekaimiru's source code. It only holds the website's source code.
+This repository doesn't hold Sekaimiru's source code.
+<br>
+It only holds necessary files and the site's source code.
 <br>
 This bot obtains game data from https://github.com/Sekai-World/sekai-master-db-en-diff.
 <br><br>
