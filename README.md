@@ -1,3 +1,5 @@
+# bot is not being developed anymore (for now)
+
 <div align="center">
   <img src="./assets/wordmark.png">
   <br><br>
