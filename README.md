@@ -1,5 +1,3 @@
-# bot is not being developed anymore (for now)
-
 <div align="center">
   <img src="./assets/wordmark.png">
   <br><br>
@@ -11,6 +9,8 @@
   <br>
   <sub>or just use the website</sub>
 </div>
+
+## bot is not being developed anymore (for now)
 
 ## ⚠️ Note
 This repository doesn't hold Sekaimiru's source code.
